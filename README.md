@@ -18,3 +18,4 @@ En este apartado se verán los comandos más básicos para poder hacer un uso se
 - **git checkout rama**: Nos desplaza a la rama especificada.
   - **git checkout -b nombreRama**: Crea una nueva rama llamada nombreRama y nos desplaza a ella.
 - **git merge nombreRama**: ¡CUIDADO! Esto fusiona la rama nombreRama dentro de la rama en la que nos encontramos actualmente. Se debe poner atención a los posibles conflictos que surjan entre los ficheros que se llamen igual y que hayan sufrido cambios distintos en las mismas líneas.
+- **git cherry-pick idCommit** : Sirve para traer un commit concreto del repositorio remoto. Para comprobar el id de los commits realizados se puede hacer con **git log**.
